@@ -1,0 +1,43 @@
+html,body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 2em 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+}
+h1 {
+    color: #aa32dc;
+    /*color: blueviolet;*/
+    text-align: center;
+    font-size: 50px;
+}
+table {
+    border:1px solid #000;
+    width:80%;
+    border-collapse: collapse;
+    margin:auto;
+    background-color: #666666;
+}
+.client{
+    text-align:left;
+    width:100px;
+
+}
+.audience {
+    table-layout: fixed;
+}
+
+tr {
+    vertical-align:top;
+}
+
+td {
+    border: 3mm ridge rgba(170, 50, 220, .6);
+    padding: .5em;
+}
+th {
+
+    background-color: rgba(41,31,31,0.35);
+    border: 3mm ridge rgba(170, 50, 220, .6);
+    padding: .5em;
+}
