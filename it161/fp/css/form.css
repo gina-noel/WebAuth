@@ -1,0 +1,123 @@
+/* keeps form from bunching up to left */
+@media all and (min-width: 501px) {
+    div.wrapper form {
+        margin-left: 22.8px;
+
+    }
+}
+
+/* start reCAPTCHA styles */
+
+/* writes to small text above reCAPTCHA upon failure */
+.dateFeedback {
+    font-style: italic;
+    font-size: 70%;
+    font-weight: bold;
+    color: #f00;
+}
+
+input:required {
+    border: 1px solid red;
+}
+
+input:optional, textarea:optional {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #fff;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+    padding: 0.3em 0.5em;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    max-width: 350px;
+}
+
+legend {
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* end reCAPTCHA styles */
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width: 1200px) {
+    div.wrapper {
+        width: 80%;
+        margin: auto;
+        padding: 1%;
+    }
+
+    h1 {
+        width: 79%;
+        padding-left: 2%;
+    }
+
+    img.desktop {
+        width: 50%;
+        float: left;
+        margin-right: 1em;
+    }
+
+    p {
+        margin: 2em;
+    }
+
+    img.phone, img.tablet {
+        display: none;
+    }
+}
+
+/* TABLET */
+@media all and (min-width: 501px) and (max-width: 1199px) {
+    div.wrapper {
+        width: 90%;
+        margin: auto;
+        padding: 1%;
+    }
+
+    h1 {
+        width: 89%;
+        padding-left: 1%;
+    }
+
+    img.tablet {
+        width: 50%;
+        float: right;
+        margin-left: 1em;
+    }
+
+    img.desktop, img.phone {
+        display: none;
+    }
+}
+
+/* PHONE */
+@media all and (max-width: 500px) {
+    div.wrapper {
+        width: 100%;
+        padding: 1em;
+    }
+
+    h1 {
+        width: 99%;
+        padding-left: 2%;
+    }
+
+    img.phone {
+        width: 90%;
+    }
+
+    img.desktop, img.tablet {
+        display: none;
+    }
+
+}

@@ -1,0 +1,13 @@
+h1 {
+    color: #aa32dc;
+    text-align: center;
+    font-size: 50px;
+}
+iframe {
+    width: 70em;
+    height: 600px;
+    border: 3mm ridge rgba(170, 50, 220, .6);
+    padding: .5em;
+    margin-right: auto;
+    margin-left: 70px;
+}
